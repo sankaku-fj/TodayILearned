@@ -38,11 +38,11 @@
                  │ Spring Boot #2 │（複数インスタンスでスケール）
                  │ Spring Boot #3 │
                  └───────▲────────┘
-                 │                │
-                 ▼                ▼
+                 │        │
+                 ▼        ▼
           ┌──────────┐   ┌──────────┐
-          │ Cache          │   │ Database │（DB負荷軽減のためRedisなど導入）
-          │ (Redis)        │   │ (MySQL,  │
-          │                │   │ PostgreSQL) │
+          │ Cache    │   │ Database │（DB負荷軽減のためRedisなど導入）
+          │ (Redis)  │   │ (MySQL,  │
+          │          │   │ PostgreSQL) │
           └──────────┘   └──────────┘
 ```
